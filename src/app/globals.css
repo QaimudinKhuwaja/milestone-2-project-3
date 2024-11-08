@@ -1,0 +1,417 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* header start */
+
+body{
+  background-color: rgb(0, 0, 71);
+}
+
+#header{
+    
+        height: 40px;
+        padding: 10px 10%;
+}
+
+
+#maindiv{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#tittle{
+    font-size: 40px;
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline white;
+    font-family:cursive;
+}
+
+#a{
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+    
+}
+
+/* eends */
+
+/* body starts here */
+
+
+#line{
+  background-color: orange;
+  height: 500px;
+  width: 4px;
+  padding: 5px;
+}
+
+#mainbody{
+  display: flex;
+  justify-content: space-around;
+   
+}
+
+ #image{
+  height: 600px;
+  width: 350px;
+  margin-top: 25px;
+ }
+
+ #textdiv{
+padding: 35px;
+margin-top: 80px;
+ 
+}
+
+
+
+#h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #qaimudin{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 172, 18);
+  }
+
+  #h2{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline orange;
+    margin-top: 10px;
+  }
+
+  #p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+    
+  }
+
+  #button{
+    background-color:white;
+    height: 50px;
+    width: 130px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border-width:9px;
+    border-color: orange;
+    margin-top: 20px;
+    font-size:15px;
+    color:orange;
+    font-weight: bold;
+  }
+#button:hover{
+  background-color: orange;
+  border-color: white;
+  color:white;
+}
+/* eends */
+
+/* About section starts */
+
+#abouttittle{
+  margin-top: 50px;
+  padding: 20px;
+  margin-left: 50px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+  
+}
+
+  #about{
+  margin-left: 50px;
+    color: white;
+    font-size: 14px;
+    margin-top: 8px;
+    
+  }
+
+#skilltittle{
+  padding: 20px;
+  margin-left: 50px;
+  padding: 5px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+  
+}
+
+#skill{
+  margin-left: 50px;
+  color: white;
+  font-size: 17px;
+  line-height: 40px;
+
+ }
+
+ #experiencetittle{
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+ }
+
+ #experience{
+  margin-left: 50px;
+  margin-top: 7px;
+  color: white;
+  font-size: 17px;
+ }
+
+#educationtittle{
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+ #education{
+  margin-left: 50px;
+    color: white;
+    font-size: 14px;
+    margin-top: 8px;
+ }
+ /* eends */
+
+
+/* Contact section starts */
+
+#contacttittle{
+  margin-top: 50px;
+  padding: 20px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+
+  
+}
+
+#contact{
+
+  padding: 20px;
+  color: orange;
+  font-size: 24px;
+  margin-top: 8px;
+  font-weight: 700;
+  
+}
+#contactin{
+    color: white;
+}
+
+#contactin:hover{
+  color: blue;
+}
+
+#thanks{
+  color: orangered;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+}
+/* eends */
+
+
+
+    @media (max-width:600px){
+
+        /* header start */
+        #header{
+            
+            height: 50px;
+            }
+        
+        #maindiv{
+            display: flex;
+            justify-content: space-around;
+          }
+
+        #tittle{
+            font-size: 14px;
+            color: orange;
+            font-weight: bold;
+            font-family:cursive;
+          }
+
+        #a{
+            font-size: 14px;
+            font-weight: bold;
+          }
+        /* eends */
+
+/* body starts */
+
+#line{
+  display: none;
+}
+
+#mainbody{
+    display: flex;
+    flex-direction: column-reverse;
+     
+}
+
+   #image{
+    height: 480px;
+    width: 290px;
+   }
+
+   #textdiv{
+
+    margin-top: 50px;
+     
+    }
+
+
+  #h1{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+  
+  }
+
+  #qaimudin{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(255, 172, 18);
+  }
+
+  #h2{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 8px;
+  }
+
+  #p{
+    color: white;
+    font-size: 14px;
+   
+    margin-top: 8px;
+    
+  }
+
+/* eends */
+
+/* About section starts */
+
+
+#abouttittle{
+ 
+  padding: 2px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+  
+}
+
+#about{
+ 
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+  
+}
+
+#skilltittle{
+  padding: 2px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+  
+}
+
+#skill{
+  color: white;
+  font-size: 17px;
+  line-height: 40px;
+
+ }
+
+ #experiencetittle{
+  margin-top: 10px;
+  padding: 2px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+ }
+
+ #experience{
+  margin-top: 7px;
+  color: white;
+  font-size: 17px;
+ }
+
+#educationtittle{
+  margin-top: 10px;
+  padding: 2px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+ #education{
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+ }
+ /* eends */
+
+/* Contact section starts */
+
+#contacttittle{
+  margin-top: 30px;
+  color: orange;
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+
+#contact{
+  color: orange;
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: 500;
+  
+}
+#contactin{
+    color: white;
+}
+
+#contactin:hover{
+  color: blue;
+}
+
+#thanks{
+  color: orangered;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  
+}
+/* eends */
+
+}
